@@ -17,8 +17,6 @@ export default defineConfig([
       'plugin:import/errors',
       'plugin:import/warnings',
       'plugin:import/react',
-      reactHooks.configs['recommended-latest'],
-      reactRefresh.configs.vite,
     ],
     languageOptions: {
       ecmaVersion: 2020,
